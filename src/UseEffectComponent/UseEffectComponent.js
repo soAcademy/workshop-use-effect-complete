@@ -5,7 +5,6 @@ export const UseEffectComponent = () => {
   const [count, setCount] = useState(0)
 
   useEffect(() => {
-    console.log('useEffect')
     let timer = setInterval(() => {
       setCount((count) => count + 1)
       console.log(count)
